@@ -1,0 +1,33 @@
+<h2>Notre offre</h2>
+<div class="container-fluid my-5">
+   <div class="row justify-content-center g-1" id="offers-container">
+
+{% for item in data.offers %}        
+       <div class="col-auto">
+           <div class="tile bg-light shadow p-3 rounded d-flex flex-column h-100">
+               <img src="{{item.image}}" class="img50" alt="{{item.alt}}">
+               <p class="mt-3">{{item.title}}</p>
+               <div class="overlay-text">{{item.description}}</div>
+           </div>
+       </div>
+{% endfor %} 
+
+   </div> <!-- tile-container -->
+</div> <!-- container my-5 -->
+<br>
+<h2>Nos domaines d'expertise</h2>
+<div class="container-fluid my-5">
+   <div class="row justify-content-center g-1" id="domains-container">
+
+{% for item in data.domains %}        
+       <div class="col-auto">
+           <div class="tile bg-light shadow p-3 rounded d-flex flex-column h-100">
+               <img src="{{item.image}}" class="img80" alt="{{item.alt}}">
+               <p class="mt-3">{{item.title}}</p>
+               <div class="overlay-text">{{item.description}}</div>
+           </div>
+       </div>
+{% endfor %}        
+
+   </div> <!-- tile-container -->
+</div> <!-- container my-5 -->

@@ -1,4 +1,12 @@
 {
+    "meta": {
+         "accueil":  "FF8000 vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
+         "services": "Découvrez les services de FF8000 : audit, design, automatisation et formation en infrastructures réseau.",
+         "certifs":  "Expertise prouvée : CCDE, DevNet, AWS. Découvrez mes certifications et mon expertise réseau.",
+         "reference":"Les projets et architectures réseau conçus par FF8000 pour des entreprises et opérateurs majeurs. Des solutions performantes, sécurisées et adaptées aux besoins complexes.",
+         "blog":     "Les articles techniques publiés",
+         "contact":  "me contacter" 
+    },
     "certifications": [
         {
             "image": "/images/ccde_design_large.png",
@@ -49,7 +57,7 @@
             "image": "/images/sherlock500x550.png",
             "alt": "Inspector",
             "title": "Audit d&#39;infrastructures",
-            "description": "Nous &#233;valuons vos infrastructures existantes par rapport aux services attendus en prenant en compte la vie de r&#233;seau et le dimensionnement pour mettre en avant leurs forces et leurs faiblesses."
+            "description": "Nous &#233;valuons vos infrastructures existantes en analysant les services attendus, la conception, la vie de r&#233;seau, le dimensionnement pour mettre en avant leurs forces et leurs faiblesses."
         },
         {
             "image": "/images/architect500x550.png",
@@ -61,7 +69,7 @@
             "image": "/images/automation500x550.png",
             "alt": "Robots",
             "title": "Automatisation",
-            "description": "Parce qu&#39;automatiser un r&#233;seau, ce n&#39;est pas seulement coder les proc&#233;dures utilis&#233;es par les administrateurs, notre m&#233;thode part d&#39;une architecture r&#233;seau adapt&#233;e, de la hi&#233;rarchie des donn&#233;es d&#39;administration et des APIs &#224; cr&#233;er pour enfin sp&#233;cifier l&#39;application."
+            "description": "Parce qu&#39;automatiser un r&#233;seau, ce n&#39;est pas seulement coder les proc&#233;dures utilis&#233;es par les administrateurs, notre m&#233;thode part d&#39;une architecture r&#233;seau adapt&#233;e, de la hi&#233;rarchie des donn&#233;es de gestion et des APIs &#224; cr&#233;er pour enfin sp&#233;cifier l&#39;application."
         },
         {
             "image": "/images/formateur500x550.png",
@@ -87,7 +95,7 @@
             "image": "/images/data-center300x200.png",
             "alt": "data center",
             "title": "Data Centers",
-            "description": "Nous cr&#233;ons votre prochain data center dans une architecture moderne affranchie de spanning-tree<br>&#10153; soit &#224; base de clusters virtuels (stack ou vPC),<br>&#10153; soit en mode fabric."
+            "description": "Nous cr&#233;ons votre prochain data center dans une architecture moderne affranchie de spanning-tree en s'appuyant sur une infrastructure<br>&#10153; de clusters virtuels (stack et vPC),<br>&#10153; en mode fabric."
         },
         {
             "image": "/images/cloud300x200.png",

@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Rediriger la racine `/` vers `/fr/accueil.html` (évite boucle infinie)
+RewriteRule ^$ /fr/accueil.html [R=301,L]
+
+# Permettre l'accès aux URLs sans afficher `.html`
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)/?$ $1.html [L]
+
