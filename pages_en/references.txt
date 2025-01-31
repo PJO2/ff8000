@@ -1,0 +1,8 @@
+<H1>Some Recent References</H1> 
+<p>During my 25 years as a solution architect at Orange Business, 
+I had the opportunity to contribute to the design 
+and evolution of numerous strategic networks.</p> 
+<p>Here are examples of designs still in production:</p> 
+<div class="container-fluid my-5"> 
+    <div class="row justify-content-center" id="references-container"></div>
+</div> <!-- container my-5 --> 

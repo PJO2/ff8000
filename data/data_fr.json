@@ -1,0 +1,99 @@
+{
+    "certifications": [
+        {
+            "image": "/images/ccde_design_large.png",
+            "name": "Cisco Certified Design Expert<br>CCDE #20130007"
+        },
+        {
+            "image": "/images/ccde_10years_large.png",
+            "name": "Cisco Certified Design Expert<br>10 years"
+        },
+        {
+            "image": "/images/DevnetPro_RGB.png",
+            "name": "Cisco DevNet Professionnal",
+            "style": "margin-top: 20px;"
+        },
+        {
+            "image": "/images/SAA.png",
+            "name": "AWS Solutions Architect Associate"
+        }
+    ],
+    "references": [
+        {
+            "image": "/images/Airbus-Logo-400x115.png",
+            "alt": "Airbus",
+            "title": "Broadband International Backbone",
+            "description": "Design du BIB (Broadband International Backbone), r&#233;seau multi VRF &#224; 3 niveaux de s&#233;curit&#233; bas&#233; sur la technologie MPLSoFlexVPN"
+        },
+        {
+            "image": "/images/gvt-france-280x147.png",
+            "alt": "RIE",
+            "title": "R&#233;seau Interminist&#233;riel d&#39;Etat",
+            "description": "Refonte du r&#233;seau de 15000 sites distants et 200 VRFs<br>&#10153; Ajout d'une boucle Juniper en secours de la boucle Cisco existante<br>&#10153; Migration de la couche transport LDP/RSVP vers un r&#233;seau Segment Routing<br>&#10153; Migration des services VPLS/tLDP vers une signalisation EVPN"
+        },
+        {
+            "image": "/images/aura-logo-358x159.png",
+            "alt": "Amplivia",
+            "title": "Amplivia",
+            "description": "Design d&#39;un r&#233;seau MPLS reliant 2500 sites r&#233;partis sur une vingtaine d&#39;op&#233;rateurs de collecte L2 et L3<br>&#10153; Utilisation des overlays PPPoE, L2TP et FlexVPN pour l&#39;int&#233;gration Radius et l&#39;autoconfiguration des PE<br>&#10153; Design de l&#39;application easyWAN pour la g&#233;n&#233;ration des configurations des CPE et du serveur Radius."
+        },
+        {
+            "image": "/images/saur-logo-360x140.png",
+            "alt": "SAUR",
+            "title": "INDUS v3",
+            "description": "Micro segmentation des 2000 sites distants multi-VRFs pour se conformer aux exigences d&#39;un op&#233;rateur d&#39;Importance Vitale (OIV)<br>D&#233;veloppement de l&#39;application responsable de la configuration du route-server."
+        }
+    ],
+    "offers": [
+        {
+            "image": "/images/sherlock500x550.png",
+            "alt": "Inspector",
+            "title": "Audit d&#39;infrastructures",
+            "description": "Nous &#233;valuons vos infrastructures existantes par rapport aux services attendus en prenant en compte la vie de r&#233;seau et le dimensionnement pour mettre en avant leurs forces et leurs faiblesses."
+        },
+        {
+            "image": "/images/architect500x550.png",
+            "alt": "Architect",
+            "title": "Design d&#39;infrastructures",
+            "description": "Nous concevons les r&#233;seaux complexes performants en prenant en compte la s&#233;curit&#233;, la r&#233;silience et la simplicit&#233; op&#233;rationnelle."
+        },
+        {
+            "image": "/images/automation500x550.png",
+            "alt": "Robots",
+            "title": "Automatisation",
+            "description": "Parce qu&#39;automatiser un r&#233;seau, ce n&#39;est pas seulement coder les proc&#233;dures utilis&#233;es par les administrateurs, notre m&#233;thode part d&#39;une architecture r&#233;seau adapt&#233;e, de la hi&#233;rarchie des donn&#233;es d&#39;administration et des APIs &#224; cr&#233;er pour enfin sp&#233;cifier l&#39;application."
+        },
+        {
+            "image": "/images/formateur500x550.png",
+            "alt": "Lecturer",
+            "title": "Formations sur-mesure",
+            "description": "Nous formons vos &#233;quipes r&#233;seaux sur la th&#233;orie (concept et protocoles) comme sur la pratique (labs).<br>Nos principaux sujets d&#39;expertises : IPv6, QoS, Multicast, MPLS, EVPN, overlays."
+        }
+    ],
+    "domains": [
+        {
+            "image": "/images/backbone300x200.png",
+            "alt": "backbone",
+            "title": "Backbones IP/MPLS",
+            "description": "Op&#233;rateurs, nous vous proposons de mettre en place une nouvelle g&#233;n&#233;ration de votre backbone bas&#233;e sur des technologies modernes MPLS Segment Routing et EVPN pour des services L3VPN et L2VPN r&#233;silients &#224; convergence rapide."
+        },
+        {
+            "image": "/images/access-network300x200.png",
+            "alt": "r&#233;seau d&#39;entreprise",
+            "title": "R&#233;seaux d&#39;entreprises",
+            "description": "Entreprises, nous concevons des r&#233;seaux d&#39;entreprises r&#233;silients et performants<br>&#10153; mono ou multi-vrf,<br>&#10153; avec ou sans overlays,<br>&#10153; sd-wan ou natif."
+        },
+        {
+            "image": "/images/data-center300x200.png",
+            "alt": "data center",
+            "title": "Data Centers",
+            "description": "Nous cr&#233;ons votre prochain data center dans une architecture moderne affranchie de spanning-tree<br>&#10153; soit &#224; base de clusters virtuels (stack ou vPC),<br>&#10153; soit en mode fabric."
+        },
+        {
+            "image": "/images/cloud300x200.png",
+            "alt": "aws design",
+            "title": "Cloud",
+            "description": "Architecte certifi&#233; AWS, nous vous aidons &#224; cr&#233;er l&#39;environnement Cloud de votre entreprise et &#224; y migrer les applications de mani&#232;re transparente et s&#233;curis&#233;e."
+        }
+    ]
+}

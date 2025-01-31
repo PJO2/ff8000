@@ -1,0 +1,12 @@
+<h2>Notre offre</h2>
+   <div class="container-fluid my-5">
+        <div class="row justify-content-center g-1" id="offers-container">
+     </div> <!-- tile-container -->
+</div> <!-- container my-5 -->
+<br>
+
+<h2>Nos domaines d'expertise</h2>
+   <div class="container-fluid my-5">
+        <div class="row justify-content-center g-1" id="domains-container">
+     </div> <!-- tile-container -->
+</div> <!-- container my-5 -->

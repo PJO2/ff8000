@@ -1,0 +1,268 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #ff7f00;
+    color: white;
+    font-size: 18px;
+    align-items: center; /* Aligne verticalement les éléments */
+    height: auto; /* Garde la hauteur ajustée aux éléments */
+
+}
+
+.navbar-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px; /* Espacement entre le logo et les liens */
+
+}
+
+.navbar button {
+    background-color: #ffe4b273;
+    border-color: #484848;
+    color: #484848;
+}
+.navbar a:hover {
+    color: #333;
+}
+#language-toggle:hover { color: #03F; }
+
+.navbar-slogan {
+    text-align: left;
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    padding: 0px 0;
+    background-color: #ff7f00; /* Optional background color */
+}
+
+.img50  {
+    width: 50%;
+}
+.img80  {
+    width: 80%;
+}    
+
+.logo
+{
+    width: 260px;
+}    
+
+.row {
+    grid-row-gap: 30px;
+}
+
+.tile {
+    width: 300px; /* Largeur des tuiles */
+    margin: auto;
+    /* height: 250px; /* Hauteur des tuiles pour uniformité */
+    background-color: #ffe4b273 !important; /* Fond légèrement orange */ 
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+    justify-content: space-between; /* Aligner les éléments (image en haut, texte en bas) */
+    text-align: center; /* Centrer le texte */
+    position: relative !important;
+    font-weight: bold;
+    padding: 10px 10px 0 0px !important; 
+
+}
+.tile img {
+    height: auto; /* Garde le ratio d'aspect */
+    object-fit: cover; /* Ajuste les dimensions si besoin */
+    height: auto;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;        
+}
+
+/* Afficher le texte quand on survole l'image */
+.tile:hover .overlay-text {
+    opacity: 1;
+}
+
+
+/* Texte qui apparaît au survol */
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+
+    color: #ffe4b2f3;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent */
+    padding: 10px 10px;
+    border-radius: 5px;
+    opacity: 0; /* Caché par défaut */
+    text-align: left;
+    transition: opacity 0.3s ease-in-out; /* Animation d'apparition */
+    font-size: 14px;        
+}
+
+/* ------------------------------------------ */
+
+/* Afficher le texte quand on survole l'image */
+.image-container:hover .overlay-text {
+    opacity: 1;
+}
+
+
+main {
+    border: 1px solid #ccc;
+    padding: 0px 10px 20px 10px;
+    margin: 10px; /* Ajout de la marge */
+}
+
+h1, h2 {
+    color: #ff7f00;
+}
+
+
+.footer-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #404040; /* Change to your brand color */
+    color: #ffB040;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Contact form styles */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px 30px;
+    padding: 20px;
+    background-color: #ffe4b273; /* Light orange to match the tiles */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none; /* Prevent resizing */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff7f00; /* Highlight color */
+    outline: none;
+}
+
+.contact-form .btn-submit {
+    padding: 10px 20px;
+    background-color: #ff7f00; /* Match navbar color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-submit:hover {
+    background-color: #e67300; /* Slightly darker orange */
+}
+
+/* Blog Container Styling */
+.blog-container {
+    max-width: 800px;
+    margin: 30px 30px;
+    padding: 20px;
+    background-color: #ffe4b273; /* Match the light orange from tiles */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Category Styling */
+.blog-category {
+    margin-bottom: 20px;
+}
+
+.blog-category h2 {
+    color: #ff7f00; /* Match the header color */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Blog Links */
+.blog-category ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.blog-category ul li {
+    margin-bottom: 10px;
+}
+
+.blog-category ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.blog-category ul li a:hover {
+    color: #ff7f00; /* Highlight link on hover */
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
