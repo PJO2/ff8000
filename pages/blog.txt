@@ -26,7 +26,7 @@
         </ul>
     </div>
     <div class="blog-category">
-        <h2>Série : Découvrir Ansible</h2>
+        <h2>Série : Découvrir Ansible (2020)</h2>
         <ul>
             <li><a href="https://mhd-experts.com/2020/06/04/decouvrir-ansible/" target="_blank">Découvrir Ansible</a></li>
             <li><a href="https://mhd-experts.com/2020/06/08/decouvrir-ansible-jour-1/" target="_blank">Jour 1 - Ma première commande ansible</a></li>
