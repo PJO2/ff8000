@@ -147,8 +147,8 @@ h1, h2 {
     width: 100%;
     background-color: #404040; /* Change to your brand color */
     color: #ffB040;
-    text-align: center;
-    padding: 0px 0;
+    text-align: right;
+    padding: 0px 15px;
     font-size: 14px;
     font-weight: normal;
 }
