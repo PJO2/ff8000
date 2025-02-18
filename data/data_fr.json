@@ -1,4 +1,12 @@
 {
+    "meta": {
+         "accueil":  "FF8000 vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
+         "services": "Découvrez les services de FF8000 : audit, design, automatisation et formation en infrastructures réseau.",
+         "certifs":  "Expertise prouvée : CCDE, DevNet, AWS. Découvrez mes certifications et mon expertise réseau.",
+         "reference":"Les projets et architectures réseau conçus par FF8000 pour des entreprises et opérateurs majeurs. Des solutions performantes, sécurisées et adaptées aux besoins complexes.",
+         "blog":     "Les articles techniques publiés",
+         "contact":  "me contacter" 
+    },
     "certifications": [
         {
             "image": "/images/ccde_design_large.png",
