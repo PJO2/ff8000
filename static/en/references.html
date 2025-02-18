@@ -25,19 +25,55 @@
 <meta property="og:type" content="website">
 
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "FF8000",
-      "url": "https://ff8000.net",
-      "logo": "https://ff8000.net/logo.png",
-
-      "description": "FF8000 supports you in the design, optimization, and automation of your network infrastructures."
-
-      "sameAs": [
-        "https://www.linkedin.com/company/ff8000",
-      ]
-    }
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "FF8000 - References",
+    "description": "Some examples of network architecture projects designed by FF8000.",
+    "url": "https://ff8000.net/en/references",
+    "itemListElement": [
+      {
+        "@type": "Project",
+        "name": "Broadband International Backbone",
+        "client": {
+          "@type": "Organization",
+          "name": "Airbus",
+          "url": "https://www.airbus.com/"
+        },
+        "description": "Design of the BIB (Broadband International Backbone), a multi-VRF network with three security levels based on MPLSoFlexVPN technology."
+      },
+      {
+        "@type": "Project",
+        "name": "Interministerial State Network (RIE)",
+        "client": {
+          "@type": "GovernmentOrganization",
+          "name": "RIE",
+          "url": "https://www.economie.gouv.fr/daj/reseau-interministeriel-etat-rie"
+        },
+        "description": "Redesign of a network with 15,000 remote sites and 200 VRFs, including migration to Segment Routing and EVPN signaling."
+      },
+      {
+        "@type": "Project",
+        "name": "Amplivia MPLS Network",
+        "client": {
+          "@type": "Organization",
+          "name": "Amplivia",
+          "url": "https://www.amplivia.com/"
+        },
+        "description": "Design of an MPLS network interconnecting 2,500 sites using PPPoE, L2TP, and FlexVPN overlays for Radius integration and PE auto-configuration."
+      },
+      {
+        "@type": "Project",
+        "name": "INDUS v3",
+        "client": {
+          "@type": "Organization",
+          "name": "SAUR",
+          "url": "https://www.saur.com/"
+        },
+        "description": "Micro-segmentation of 2,000 multi-VRF remote sites to comply with the requirements of an Operator of Vital Importance (OIV)."
+      }
+    ]
+}
 </script>
    </head>
 <body>

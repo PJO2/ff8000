@@ -26,19 +26,55 @@
 <meta property="og:type" content="website">
 
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "FF8000 - Références",
+  "description": "Quelques références de projets d'infrastructure réseau réalisés par FF8000.",
+  "url": "https://ff8000.net/fr/references",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "FF8000",
-      "url": "https://ff8000.net",
-      "logo": "https://ff8000.net/logo.png",
-
-      "description": "FF8000 vous accompagne dans la conception, l'optimisation et l'automatisation de vos infrastructures réseau.",
-
-      "sameAs": [
-        "https://www.linkedin.com/company/ff8000",
-      ]
+      "@type": "Project",
+      "name": "Broadband International Backbone",
+      "client": {
+        "@type": "Organization",
+        "name": "Airbus",
+        "url": "https://www.airbus.com/"
+      },
+      "description": "Design du BIB (Broadband International Backbone), réseau multi VRF à 3 niveaux de sécurité basé sur la technologie MPLSoFlexVPN."
+    },
+    {
+      "@type": "Project",
+      "name": "Réseau Interministériel d'État",
+      "client": {
+        "@type": "GovernmentOrganization",
+        "name": "RIE",
+        "url": "https://www.economie.gouv.fr/daj/reseau-interministeriel-etat-rie"
+      },
+      "description": "Refonte du réseau de 15 000 sites distants et 200 VRFs avec migration Segment Routing et EVPN."
+    },
+    {
+      "@type": "Project",
+      "name": "Amplivia MPLS Network",
+      "client": {
+        "@type": "Organization",
+        "name": "Amplivia",
+        "url": "https://www.amplivia.com/"
+      },
+      "description": "Design d’un réseau MPLS reliant 2500 sites en utilisant des overlays PPPoE, L2TP et FlexVPN."
+    },
+    {
+      "@type": "Project",
+      "name": "INDUS v3",
+      "client": {
+        "@type": "Organization",
+        "name": "SAUR",
+        "url": "https://www.saur.com/"
+      },
+      "description": "Micro-segmentation de 2000 sites multi-VRFs pour répondre aux exigences d'un opérateur d'Importance Vitale (OIV)."
     }
+  ]
+}
 </script>
    </head>
 <body>
