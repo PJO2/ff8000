@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Rediriger la racine du site vers /fr/accueil.html
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(\?|$) [NC]
+RewriteRule ^$ /fr/accueil.html [R=301,L]
+
+# Enlever .html des URLs pour un affichage propre
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)/?$ $1.html [L]
+

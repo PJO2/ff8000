@@ -4,5 +4,17 @@ I had the opportunity to contribute to the design
 and evolution of numerous strategic networks.</p> 
 <p>Here are examples of designs still in production:</p> 
 <div class="container-fluid my-5"> 
-    <div class="row justify-content-center" id="references-container"></div>
+    <div class="row justify-content-center" id="references-container">
+
+{% for ref in data.references %}
+        <div class="col-auto">
+            <div class="tile bg-light shadow p-3 rounded d-flex flex-column h-100">
+                <img src="{{ref.image}}" class="logo" alt="{{ref.alt}}">
+                <p class="mt-3">{{ref.title}}</p>
+                <div class="overlay-text">{{ref.description}}</div>
+            </div>
+        </div>
+{% endfor %}
+
+    </div>
 </div> <!-- container my-5 --> 

@@ -49,7 +49,7 @@
             "image": "/images/sherlock500x550.png",
             "alt": "Inspector",
             "title": "Infrastructure Audit",
-            "description": "We evaluate your existing infrastructure against expected services, considering network lifecycle and sizing to highlight its strengths and weaknesses."
+            "description": "We evaluate your existing infrastructure against expected services, considering security, network lifecycle and sizing to highlight its strengths and weaknesses."
         },
         {
             "image": "/images/architect500x550.png",
@@ -61,7 +61,7 @@
             "image": "/images/automation500x550.png",
             "alt": "Robots",
             "title": "Automation",
-            "description": "Automating a network is more than just coding administrator procedures. Our approach starts with a well-adapted network architecture, followed by administrative data hierarchy, API creation, and finally application specification."
+            "description": "Because automating a network isn't just about replicating a network expert in software, our approach starts with a well-adapted network architecture, followed by administrative and management data hierarchy, API creation, and finally application specification."
       },
         {
             "image": "/images/formateur500x550.png",
@@ -75,7 +75,7 @@
             "image": "/images/backbone300x200.png",
             "alt": "backbone",
             "title": "IP/MPLS Backbones",
-            "description": "For operators, we offer to implement a new generation of your backbone based on modern MPLS + Segment Routing technologies to deliver resilien  L3VPN and L2VPN services with fast convergence."
+            "description": "For operators, we offer to implement a new generation of your backbone based on modern MPLS + Segment Routing technologies to deliver resilient L3VPN and L2VPN services with fast convergence."
         },
         {
             "image": "/images/access-network300x200.png",
@@ -87,7 +87,7 @@
             "image": "/images/data-center300x200.png",
             "alt": "data center",
             "title": "Data Centers",
-            "description": "We design your next data center using a modern architecture without spanning-tree:<br>&#10153; based on virtual clusters (stack or vPC),<br>&#10153; or in fabric mode."
+            "description": "We design your next data center using a modern architecture without spanning-tree:<br>&#10153; using virtual clusters (stack and vPC),<br>&#10153; in fabric mode."
        },
         {
             "image": "/images/cloud300x200.png",

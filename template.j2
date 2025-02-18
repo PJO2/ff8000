@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+{% include "head.html" %}
+   </head>
+<body>
+   <header>
+{% include "pages_" + lang + "/menu.html" %}
+   </header>
+   <main id="content">
+{% include "pages_" + lang + "/" + page + ".html" %}
+   </main>
+   <footer>
+{% include "footer.html" %}
+   </footer>
+</body>
+</html>
