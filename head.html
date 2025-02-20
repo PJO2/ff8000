@@ -10,7 +10,11 @@
 {% endif %}
 <meta name="description" content="{{ data.meta[page] }}">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+{%- if lang=="fr" and page=="accueil" %}
 <link rel="canonical" href="https://ff8000.net">
+{%- else %}
+<link rel="canonical" href="https://ff8000.net/{{ lang }}/{{ page }}">
+{%- endif %}
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/styles.css">
@@ -38,7 +42,7 @@
 {%- endif %}
       {# add any keys under the seo sections for the page #}
 {%- for k,v in data.meta.seo[page] | items %}
-         {{ k }}: {{ v | tojson(2) }},
+         "{{ k }}": {{ v | tojson(2) }},
 {%- endfor %}
       "sameAs": [
         "https://www.linkedin.com/company/ff8000",
