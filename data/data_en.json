@@ -1,108 +1,241 @@
 {
     "meta": {
-         "accueil":  "FF8000 supports you in the design and optimization of your network infrastructures with solutions tailored for large enterprises.",
-         "services": "Discover FF8000's services: audit, design, automation, and training in network infrastructures.",
-         "certifs":  "Proven expertise: CCDE, DevNet, AWS. Explore my certifications and network expertise.",
-         "reference":"Network projects and architectures designed by FF8000 for major enterprises and operators. High-performance, secure solutions tailored to complex needs.",
-         "blog":     "Technical articles published",
-         "contact":  "Contact me" 
+        "descriptions": {
+            "accueil":  "FF8000 supports you in the design and optimization of your network infrastructures with solutions tailored for large enterprises.",
+            "services": "Discover FF8000's services: audit, design, automation, and training in network infrastructures.",
+            "certifs":  "Proven expertise: CCDE, DevNet, AWS. Explore my certifications and network expertise.",
+            "reference":"Network projects and architectures designed by FF8000 for major enterprises and operators. High-performance, secure solutions tailored to complex needs.",
+            "blog":     "Technical articles published",
+            "contact":  "Contact me" 
+        },
+        "seo": {    
+            "accueil": {
+                "description" : "FF8000 is a freelance consulting firm specialized in network and cloud architecture. We offer advanced expertise in the design, optimization, and automation of network infrastructures, providing high-performance and secure solutions tailored to large enterprises.",                
+                "@type": "Organization",
+                "contactPoint": [{
+                    "@type": "ContactPoint",
+                    "telephone": "+33 6 80 11 64 16",
+                    "contactType": "customer service",
+                    "areaServed": "FR",
+                    "availableLanguage": ["French", "English"]
+                    }]
+            },
+            "services": {
+                "description": "FF8000 offers audit, design, optimization, automation, and training services in network infrastructures. Our solutions are tailored to large enterprises and ensure performance, security, and simplified management.",
+                "@type": "Service",
+                "serviceType": "Network and cloud infrastructure consulting",
+                "areaServed": {
+                    "@type": "Place",
+                    "name": "Europe"
+                    },
+                    "offers": {
+                    "@type": "Offer",
+                    "url": "https://ff8000.net/en/services",
+                    "description": "Professional network consulting services: audit, automation, optimization, and training",
+                    "price": "On request",
+                    "priceCurrency": "EUR",
+                    "eligibleRegion": {
+                        "@type": "Place",
+                        "name": "Europe"
+                    },
+                    "availability": "https://schema.org/InStock"
+                    },
+                    "category": [
+                    "Network audit",
+                    "Network design",
+                    "Infrastructure automation",
+                    "Professional training",
+                    "Network optimization"
+                    ]
+                },
+            "references": {
+                "description" : "Network infrastructure project references delivered by FF8000.",
+                "@type": "ItemList",
+                "itemListElement": [
+                    {
+                    "@type": "Project",
+                    "name": "Broadband International Backbone",
+                    "client": {
+                        "@type": "Organization",
+                        "name": "Airbus",
+                        "url": "https://www.airbus.com/"
+                    },
+                    "description": "Design of the BIB (Broadband International Backbone), a multi-VRF network with three security levels based on MPLSoFlexVPN technology."
+                    },
+                    {
+                    "@type": "Project",
+                    "name": "Interministerial State Network",
+                    "client": {
+                        "@type": "GovernmentOrganization",
+                        "name": "RIE",
+                        "url": "https://www.economie.gouv.fr/daj/reseau-interministeriel-etat-rie"
+                    },
+                    "description": "Redesign of a network with 15,000 remote sites and 200 VRFs including migration to Segment Routing and EVPN signaling."
+                    },
+                    {
+                    "@type": "Project",
+                    "name": "Amplivia MPLS Network",
+                    "client": {
+                        "@type": "Organization",
+                        "name": "Amplivia",
+                        "url": "https://www.amplivia.com/"
+                    },
+                    "description": "Design of an MPLS network connecting 2500 sites using PPPoE, L2TP, and FlexVPN overlays."
+                    },
+                    {
+                    "@type": "Project",
+                    "name": "INDUS v3",
+                    "client": {
+                        "@type": "Organization",
+                        "name": "SAUR",
+                        "url": "https://www.saur.com/"
+                    },
+                    "description": "Micro-segmentation of 2000 multi-VRF sites to meet the requirements of a Vital Importance Operator (OIV)."
+                    }
+                ]
+            },
+            "certifications": {
+                "description": "List of valid certifications",
+                "@type": "Person",
+                "jobTitle": "Freelance network architecture consultant",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "FF8000",
+                    "url": "https://ff8000.net"
+                },
+                "hasCredential": [
+                    {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Cisco Certified Design Expert (CCDE)",
+                    "educationalProgramMode": "Onsite",
+                    "recognizedBy": {
+                        "@type": "Organization",
+                        "name": "Cisco",
+                        "url": "https://www.cisco.com"
+                    }
+                    },
+                    {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Cisco DevNet Professional",
+                    "educationalProgramMode": "Onsite",
+                    "recognizedBy": {
+                        "@type": "Organization",
+                        "name": "Cisco",
+                        "url": "https://www.cisco.com"
+                    }
+                    },
+                    {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "AWS Solutions Architect Associate",
+                    "educationalProgramMode": "Online",
+                    "recognizedBy": {
+                        "@type": "Organization",
+                        "name": "Amazon Web Services",
+                        "url": "https://aws.amazon.com"
+                    }
+                    }
+                ]
+            }
+        }
     },
-    "certifications": [
-        {
-            "image": "/images/ccde_design_large.png",
-            "name": "Cisco Certified Design Expert<br>CCDE #20130007"
+    "tiles": {
+        "certifications": [
+            {
+                "image": "/images/ccde_design_large.png",
+                "name": "Cisco Certified Design Expert<br>CCDE #20130007"
+            },
+            {
+                "image": "/images/ccde_10years_large.png",
+                "name": "Cisco Certified Design Expert<br>10 years"
+            },
+            {
+                "image": "/images/DevnetPro_RGB.png",
+                "name": "Cisco DevNet Professionnal",
+                "style": "margin-top: 20px;"
+            },
+            {
+                "image": "/images/SAA.png",
+                "name": "AWS Solutions Architect Associate"
+            }
+        ],
+        "references": [
+            {
+                "image": "/images/Airbus-Logo-400x115.png",
+                "alt": "Airbus",
+                "title": "Broadband International Backbone",
+                "description": "Design of the BIB (Broadband International Backbone), a multi-VRF network with three security levels based on MPLSoFlexVPN technology."
+            },
+            {
+                "image": "/images/gvt-france-280x147.png",
+                "alt": "RIE",
+                "title": "Réseau Interministériel d'Etat",
+                "description": "Redesign of a network with 15,000 remote sites and 200 VRFs:<br>&#10153; Addition of a Juniper topology as a backup for the existing Cisco topology<br>&#10153; Migration of the transport layer (LDP/RSVP) to a Segment Routing network<br>&#10153; Migration of VPLS/tLDP services to EVPN signaling."
+            },
+            {
+                "image": "/images/aura-logo-358x159.png",
+                "alt": "Amplivia",
+                "title": "Amplivia",
+                "description": "Design of an MPLS network interconnecting 2,500 sites via multiple Layer 2 and Layer 3 access operators:<br>&#10153; Use of PPPoE, L2TP, and FlexVPN overlays for Radius integration and PE auto-configuration<br>&#10153; Design of the easyWAN application for generation of CPE configurations and Radius server interfacing."
+            },
+            {
+                "image": "/images/saur-logo-360x140.png",
+                "alt": "SAUR",
+                "title": "INDUS v3",
+                "description": "Micro-segmentation of 2,000 multi-VRF remote sites to comply with the requirements of an Operator of Vital Importance (OIV).<br>Development of the application for route server configuration."
+    }
+        ],
+        "offers": [
+            {
+                "image": "/images/sherlock500x550.png",
+                "alt": "Inspector",
+                "title": "Infrastructure Audit",
+                "description": "We evaluate your existing infrastructure against expected services, considering security, network lifecycle and sizing to highlight its strengths and weaknesses."
+            },
+            {
+                "image": "/images/architect500x550.png",
+                "alt": "Architect",
+                "title": "Infrastructure Design",
+                "description": "We design high-performing complex networks that prioritize security, resilience, and operational simplicity."
+            },
+            {
+                "image": "/images/automation500x550.png",
+                "alt": "Robots",
+                "title": "Automation",
+                "description": "Because automating a network isn't just about replicating a network expert in software, our approach starts with a well-adapted network architecture, followed by administrative and management data hierarchy, API creation, and finally application specification."
         },
-        {
-            "image": "/images/ccde_10years_large.png",
-            "name": "Cisco Certified Design Expert<br>10 years"
+            {
+                "image": "/images/formateur500x550.png",
+                "alt": "Lecturer",
+                "title": "Custom Training",
+                "description": "We train your network teams in both theory (concepts and protocols) and practice (labs).<br>Our key expertise areas include: IPv6, QoS, Multicast, MPLS, EVPN, overlays."
+            }
+        ],
+        "domains" : [
+            {
+                "image": "/images/backbone300x200.png",
+                "alt": "backbone",
+                "title": "IP/MPLS Backbones",
+                "description": "For operators, we offer to implement a new generation of your backbone based on modern MPLS + Segment Routing technologies to deliver resilient L3VPN and L2VPN services with fast convergence."
+            },
+            {
+                "image": "/images/access-network300x200.png",
+                "alt": "Enterprise Network",
+                "title": "Enterprise Networks",
+                "description": "For enterprises, we design resilient and high-performing networks:<br>&#10153; single or multi-VRF,<br>&#10153; with or without overlays,<br>&#10153; SD-WAN or native."
+            },              
+            {
+                "image": "/images/data-center300x200.png",
+                "alt": "data center",
+                "title": "Data Centers",
+                "description": "We design your next data center using a modern architecture without spanning-tree:<br>&#10153; using virtual clusters (stack and vPC),<br>&#10153; in fabric mode."
         },
-        {
-            "image": "/images/DevnetPro_RGB.png",
-            "name": "Cisco DevNet Professionnal",
-            "style": "margin-top: 20px;"
-        },
-        {
-            "image": "/images/SAA.png",
-            "name": "AWS Solutions Architect Associate"
-        }
-    ],
-    "references": [
-        {
-            "image": "/images/Airbus-Logo-400x115.png",
-            "alt": "Airbus",
-            "title": "Broadband International Backbone",
-            "description": "Design of the BIB (Broadband International Backbone), a multi-VRF network with three security levels based on MPLSoFlexVPN technology."
-        },
-        {
-            "image": "/images/gvt-france-280x147.png",
-            "alt": "RIE",
-            "title": "Réseau Interministériel d'Etat",
-            "description": "Redesign of a network with 15,000 remote sites and 200 VRFs:<br>&#10153; Addition of a Juniper topology as a backup for the existing Cisco topology<br>&#10153; Migration of the transport layer (LDP/RSVP) to a Segment Routing network<br>&#10153; Migration of VPLS/tLDP services to EVPN signaling."
-        },
-        {
-            "image": "/images/aura-logo-358x159.png",
-            "alt": "Amplivia",
-            "title": "Amplivia",
-            "description": "Design of an MPLS network interconnecting 2,500 sites via multiple Layer 2 and Layer 3 access operators:<br>&#10153; Use of PPPoE, L2TP, and FlexVPN overlays for Radius integration and PE auto-configuration<br>&#10153; Design of the easyWAN application for generation of CPE configurations and Radius server interfacing."
-        },
-        {
-            "image": "/images/saur-logo-360x140.png",
-            "alt": "SAUR",
-            "title": "INDUS v3",
-            "description": "Micro-segmentation of 2,000 multi-VRF remote sites to comply with the requirements of an Operator of Vital Importance (OIV).<br>Development of the application for route server configuration."
-   }
-    ],
-    "offers": [
-        {
-            "image": "/images/sherlock500x550.png",
-            "alt": "Inspector",
-            "title": "Infrastructure Audit",
-            "description": "We evaluate your existing infrastructure against expected services, considering security, network lifecycle and sizing to highlight its strengths and weaknesses."
-        },
-        {
-            "image": "/images/architect500x550.png",
-            "alt": "Architect",
-            "title": "Infrastructure Design",
-            "description": "We design high-performing complex networks that prioritize security, resilience, and operational simplicity."
-        },
-        {
-            "image": "/images/automation500x550.png",
-            "alt": "Robots",
-            "title": "Automation",
-            "description": "Because automating a network isn't just about replicating a network expert in software, our approach starts with a well-adapted network architecture, followed by administrative and management data hierarchy, API creation, and finally application specification."
-      },
-        {
-            "image": "/images/formateur500x550.png",
-            "alt": "Lecturer",
-            "title": "Custom Training",
-            "description": "We train your network teams in both theory (concepts and protocols) and practice (labs).<br>Our key expertise areas include: IPv6, QoS, Multicast, MPLS, EVPN, overlays."
-        }
-    ],
-    "domains" : [
-        {
-            "image": "/images/backbone300x200.png",
-            "alt": "backbone",
-            "title": "IP/MPLS Backbones",
-            "description": "For operators, we offer to implement a new generation of your backbone based on modern MPLS + Segment Routing technologies to deliver resilient L3VPN and L2VPN services with fast convergence."
-        },
-        {
-            "image": "/images/access-network300x200.png",
-            "alt": "Enterprise Network",
-            "title": "Enterprise Networks",
-            "description": "For enterprises, we design resilient and high-performing networks:<br>&#10153; single or multi-VRF,<br>&#10153; with or without overlays,<br>&#10153; SD-WAN or native."
-        },              
-        {
-            "image": "/images/data-center300x200.png",
-            "alt": "data center",
-            "title": "Data Centers",
-            "description": "We design your next data center using a modern architecture without spanning-tree:<br>&#10153; using virtual clusters (stack and vPC),<br>&#10153; in fabric mode."
-       },
-        {
-            "image": "/images/cloud300x200.png",
-            "alt": "aws design",
-            "title": "Cloud",
-            "description": "As an AWS-certified architect, we help you create your company's cloud environment and migrate applications securely and seamlessly."
+            {
+                "image": "/images/cloud300x200.png",
+                "alt": "aws design",
+                "title": "Cloud",
+                "description": "As an AWS-certified architect, we help you create your company's cloud environment and migrate applications securely and seamlessly."
 
-        }
-    ]
+            }
+        ]
+    }
 }
