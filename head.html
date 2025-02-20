@@ -10,37 +10,43 @@
 {% endif %}
 <meta name="description" content="{{ data.meta[page] }}">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+{%- if lang=="fr" and page=="accueil" %}
 <link rel="canonical" href="https://ff8000.net">
+{%- else %}
+<link rel="canonical" href="https://ff8000.net/{{ lang }}/{{ page }}">
+{%- endif %}
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/styles.css">
-
-{% if lang=="fr" %}
+{%- if lang=="fr" %}
 <meta property="og:title" content="FF8000 - Expertise en Réseaux et Automatisation">
 <meta property="og:description" content="Des solutions réseau performantes et automatisées pour les grandes entreprises.">
 <meta property="og:locale" content="fr_FR">
-{% elif lang=="en" %}
+{%- elif lang=="en" %}
 <meta property="og:title" content="FF8000 - Network Expertise and Automation">
 <meta property="og:description" content="High-performance and automated network solutions for large enterprises.">
-{% endif %}
+{%- endif %}
 <meta property="og:image" content="https://ff8000.net/images/preview.jpg">
 <meta property="og:url" content="https://ff8000.net">
 <meta property="og:type" content="website">
-
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "FF8000",
-      "url": "https://ff8000.net",
-      "logo": "https://ff8000.net/logo.png",
-{% if lang=="fr" %}
-      "description": "FF8000 vous accompagne dans la conception, l'optimisation et l'automatisation de vos infrastructures réseau.",
-{% elif lang=="en" %}
-      "description": "FF8000 supports you in the design, optimization, and automation of your network infrastructures."
-{% endif %}
+      "url": "https://ff8000.net/{{ lang }}/{{ page }}",
+      "logo": "https://ff8000.net/images/ff8000-logo48x48.png",
+      "image": "https://ff8000.net/images/ff8000-logo512x512.png",
+{%- if lang=="fr" %}
+      "name": "FF8000 - Consultant en réseau et cloud",
+{%- elif lang=="en" %}
+      "name": "FF8000 - Network & Cloud Consultant",
+{%- endif %}
+      {# add any keys under the seo sections for the page #}
+{%- for k,v in data.meta.seo[page] | items %}
+         "{{ k }}": {{ v | tojson(2) }},
+{%- endfor %}
       "sameAs": [
         "https://www.linkedin.com/company/ff8000",
-      ]
+        "https://github.com/PJO2"
+      ]      
     }
 </script>
