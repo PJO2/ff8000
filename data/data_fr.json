@@ -96,7 +96,7 @@
                     }
                 ]
             },
-        "certifications": {
+        "certifs": {
                 "description": "Liste des certifications en cours de validité",
                 "@type": "Person",
                 "jobTitle": "Consultant freelance en architecture réseau",
@@ -145,8 +145,8 @@
 
     "_comment_TILES": "------------------   Tiles display and swapping  ---------------------",
 
-            "_comment_CER": "------------------    Page Certifs.html    ---------------------",
     "tiles": {
+        "_comment_CER": "------------------    Page Certifs.html    ---------------------",
         "certifications": [
             {
                 "image": "/images/ccde_design_large.png",

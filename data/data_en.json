@@ -1,4 +1,6 @@
 {
+    "_comment_SEO": "------------------    S E O    ---------------------",
+
     "meta": {
         "descriptions": {
             "accueil":  "FF8000 supports you in the design and optimization of your network infrastructures with solutions tailored for large enterprises.",
@@ -94,7 +96,7 @@
                     }
                 ]
             },
-            "certifications": {
+            "certifs": {
                 "description": "List of valid certifications",
                 "@type": "Person",
                 "jobTitle": "Freelance network architecture consultant",
@@ -138,7 +140,12 @@
             }
         }
     },
+
+
+    "_comment_TILES": "------------------   Tiles display and swapping  ---------------------",
+
     "tiles": {
+        "_comment_CER": "------------------    Page Certifs.html    ---------------------",
         "certifications": [
             {
                 "image": "/images/ccde_design_large.png",
@@ -182,7 +189,7 @@
                 "alt": "SAUR",
                 "title": "INDUS v3",
                 "description": "Micro-segmentation of 2,000 multi-VRF remote sites to comply with the requirements of an Operator of Vital Importance (OIV).<br>Development of the application for route server configuration."
-    }
+             }
         ],
         "offers": [
             {
@@ -202,7 +209,7 @@
                 "alt": "Robots",
                 "title": "Automation",
                 "description": "Because automating a network isn't just about replicating a network expert in software, our approach starts with a well-adapted network architecture, followed by administrative and management data hierarchy, API creation, and finally application specification."
-        },
+            },
             {
                 "image": "/images/formateur500x550.png",
                 "alt": "Lecturer",
@@ -228,7 +235,7 @@
                 "alt": "data center",
                 "title": "Data Centers",
                 "description": "We design your next data center using a modern architecture without spanning-tree:<br>&#10153; using virtual clusters (stack and vPC),<br>&#10153; in fabric mode."
-        },
+            },
             {
                 "image": "/images/cloud300x200.png",
                 "alt": "aws design",
@@ -238,8 +245,8 @@
             }
         ]
     },
-    "_comment_BLG": "------------------    Page Blog    ---------------------",
 
+    "_comment_BLG": "------------------    Page Blog    ---------------------",
     "blog": {
         "sections": [
             {
