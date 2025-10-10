@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
+=======
+    "_comment_SEO": "------------------    S E O    ---------------------",
+
+>>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
     "meta": {
         "descriptions": {
             "accueil":  "FF8000 vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
@@ -94,7 +99,11 @@
                     }
                 ]
             },
+<<<<<<< HEAD
             "certifications": {
+=======
+        "certifs": {
+>>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
                 "description": "Liste des certifications en cours de validité",
                 "@type": "Person",
                 "jobTitle": "Consultant freelance en architecture réseau",
@@ -139,7 +148,16 @@
         }
     
     },
+<<<<<<< HEAD
     "tiles": {
+=======
+
+
+    "_comment_TILES": "------------------   Tiles display and swapping  ---------------------",
+
+    "tiles": {
+        "_comment_CER": "------------------    Page Certifs.html    ---------------------",
+>>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
         "certifications": [
             {
                 "image": "/images/ccde_design_large.png",
@@ -159,6 +177,10 @@
                 "name": "AWS Solutions Architect Associate"
             }
         ],
+<<<<<<< HEAD
+=======
+            "_comment_REF": "------------------    Page References    ---------------------",
+>>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
         "references": [
             {
                 "image": "/images/Airbus-Logo-400x115.png",
@@ -185,6 +207,10 @@
                 "description": "Micro segmentation des 2000 sites distants multi-VRFs pour se conformer aux exigences d&#39;un op&#233;rateur d&#39;Importance Vitale (OIV)<br>D&#233;veloppement de l&#39;application responsable de la configuration du route-server."
             }
         ],
+<<<<<<< HEAD
+=======
+            "_comment_SER": "------------------    Page Services.html    ---------------------",
+>>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
         "offers": [
             {
                 "image": "/images/sherlock500x550.png",
@@ -237,5 +263,178 @@
                 "description": "Architecte certifi&#233; AWS, nous vous aidons &#224; cr&#233;er l&#39;environnement Cloud de votre entreprise et &#224; y migrer les applications de mani&#232;re transparente et s&#233;curis&#233;e."
             }
         ]
+<<<<<<< HEAD
+=======
+    },
+
+    "_comment_BLG": "------------------    Page Blog    ---------------------",
+
+    "blog": {
+        "sections": [
+            {
+                "name": "Publication sur le blog d'Ivan Pepelnjak",
+                "tag":  "Ivan"
+            },
+            {  
+                "name": "Posts publiés sur LinkedIn",
+                "tag":  "LinkedIn"
+            },        
+            {  
+                "name": "Publications sur le blog MHD-Experts",
+                "tag":  "MHD-Experts"
+            },       
+            {  
+                "name": "Série: Découvrir Ansible (2020)",
+                "tag":  "MHD Ansible"
+            }        
+       ],
+       "articles": [
+            {
+                "url": "https://blog.ipspace.net/2021/04/worth-reading-data-manipulation-jinja2/",
+                "topic": "À lire : Manipulation de données avec Jinja2",
+                "tag": "Ivan",
+                "keywords": ["jinja2", "data manipulation", "templating", "automation"],
+                "year": 2021
+            },
+            {
+                "url": "https://blog.ipspace.net/2019/10/changing-cisco-ios-bgp-policies-based/",
+                "topic": "Modifier les politiques BGP Cisco IOS en fonction des SLAs IP",
+                "tag": "Ivan",
+                "keywords": ["cisco", "bgp", "policy", "routing"],
+                "year": 2019
+            },
+            {
+                "url": "https://www.linkedin.com/posts/phjounin_retro-labbing-building-secure-roaming-wi-fi-activity-7361731531825934336-uKE6",
+                "topic": "Retro Labbing : Construire un Wi-Fi sécurisé avec roaming pour 100€",
+                "tag": "LinkedIn",
+                "keywords": ["wi-fi", "wpa2-enterprise", "roaming", "lab", "retro"],
+                "year": 2025
+            },
+            {
+                "url": "https://www.linkedin.com/posts/phjounin_releasing-ioulive64-a-new-way-to-connect-activity-7348695844285464578-Xfr0",
+                "topic": "OUlive64 - connecter vos labs Cisco IOU au monde réel",
+                "tag": "LinkedIn",
+                "keywords": ["iou", "virtual labs", "cisco", "automation", "network emulation"],
+                "year": 2025
+            },
+            {
+                "url": "https://mhd-experts.com/2025/06/21/memento-jinja-oriente-reseau/",
+                "topic": "Jinja pour le réseau - le mémento",
+                "tag": "MHD-Experts",
+                "keywords": ["jinja2", "network automation", "cheatsheet", "templates"],
+                "year": 2025
+            },
+            {
+                "url": "https://mhd-experts.com/2025/02/03/iou-is-back/",
+                "topic": "IOU is back !",
+                "tag": "MHD-Experts",
+                "keywords": ["iou", "cisco", "lab", "network simulation"],
+                "year": 2025
+            },
+            {
+                "url": "https://mhd-experts.com/2023/12/12/limiter-les-flux-microsoft-update-en-journee/",
+                "topic": "Limiter les flux Microsoft Update en journée",
+                "tag": "MHD-Experts",
+                "keywords": ["microsoft update", "qos", "bandwidth control"],
+                "year": 2023
+            },
+            {
+                "url": "https://mhd-experts.com/2023/12/03/variations-autour-de-la-commande-scp/",
+                "topic": "Variations autour de la commande SCP",
+                "tag": "MHD-Experts",
+                "keywords": ["scp", "file transfer", "linux", "security"],
+                "year": 2023
+            },
+            {
+                "url": "https://mhd-experts.com/2023/02/01/cacher-la-complexite-les-summary-routes/",
+                "topic": "Cacher la complexité : Les summary-routes",
+                "tag": "MHD-Experts",
+                "keywords": ["routing", "summary routes", "bgp", "design"],
+                "year": 2023
+            },
+            {
+                "url": "https://mhd-experts.com/2022/08/11/utiliser-des-adresses-dhcp-predictives/",
+                "topic": "Utiliser des adresses DHCP prédictives",
+                "tag": "MHD-Experts",
+                "keywords": ["dhcp", "predictive addressing", "ip allocation"],
+                "year": 2022
+            },
+            {
+                "url": "https://mhd-experts.com/2022/07/07/3-moyens-de-battre-les-routes-directly-connected/",
+                "topic": "3 moyens de battre les routes directly-connected",
+                "tag": "MHD-Experts",
+                "keywords": ["routing", "connected routes", "tricks"],
+                "year": 2022
+            },
+            {
+                "url": "https://mhd-experts.com/2021/03/15/jinja2-avance/",
+                "topic": "Jinja2 avancé",
+                "tag": "MHD-Experts",
+                "keywords": ["jinja2", "advanced", "network automation"],
+                "year": 2021
+            },
+            {
+            "url": "https://mhd-experts.com/2021/02/04/comportement-du-pe-de-sortie-dans-un-reseau-l3vpn/",
+                "topic": "MPLS: Comportement du PE de sortie dans un réseau L3VPN",
+                "tag": "MHD-Experts",
+                "keywords": ["mpls", "l3vpn", "service provider", "pe-router"],
+                "year": 2021
+            },
+            {
+            "url": "https://mhd-experts.com/2020/06/04/decouvrir-ansible/",
+                "topic": "Découvrir Ansible",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "automation", "introduction"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/06/08/decouvrir-ansible-jour-1/",
+                "topic": "Jour 1 - Ma première commande ansible",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "automation", "first steps"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/06/15/jour-ii-analyse-de-la-commande-executee/",
+                "topic": "Jour 2 : Analyse de la commande exécutée",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "command analysis"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/06/23/jour-iii-actions-et-donnees/",
+                "topic": "Jour 3 : Actions et données",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "actions", "data"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/06/30/ansible-jour-iv-le-module-cli_command/",
+                "topic": "Jour 4 : Le module cli_command",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "cli_command", "modules"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/07/07/ansible-le-langage-yaml/",
+                "topic": "Interlude: Le langage YAML",
+                "tag": "MHD Ansible",
+                "keywords": ["yaml", "ansible", "syntax"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/07/15/jour-v-les-playbooks/",
+                "topic": "Jour 5 : Les playbooks",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "playbooks", "automation"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/07/21/ansible-les-templates-jinja2/",
+                "topic": "Interlude: Les templates Jinja2",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "jinja2", "templates"]
+            },
+            {
+                "url": "https://mhd-experts.com/2020/08/25/ansible-utiliser-les-templates/",
+                "topic": "Jour 6: Utiliser les templates",
+                "tag": "MHD Ansible",
+                "keywords": ["ansible", "templates", "automation"]
+            }
+        ]
+>>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
     }
 }

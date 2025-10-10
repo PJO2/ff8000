@@ -5,6 +5,7 @@
 </p>
 <p>La liste de mes articles :</p>
 
+<<<<<<< HEAD
 <div class="blog-container">
     <div class="blog-category">
         <h2>Publications sur le blog d'Ivan Pepelnjak :</h2>
@@ -42,3 +43,20 @@
         </ul>
     </div>
 </div>
+=======
+
+
+<div class="blog-container">
+    {%- for sec in data.blog.sections %}
+    <div class="blog-category">
+        <h2>{{ sec.name }}:</h2>
+        <ul>
+    {%- for post in data.blog.articles if post.tag==sec.tag %} 
+           <li><a href="{{ post.url }}" target="_blank">{{ post.topic }}{{ '&nbsp;  ('~post.year~')' if post.year else '' }}</a></li>
+    {%- endfor %}
+        </ul>
+    </div>
+{%- endfor %}
+</div>
+
+>>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
