@@ -1,9 +1,4 @@
 {
-<<<<<<< HEAD
-=======
-    "_comment_SEO": "------------------    S E O    ---------------------",
-
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
     "meta": {
         "descriptions": {
             "accueil":  "FF8000 vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
@@ -99,11 +94,7 @@
                     }
                 ]
             },
-<<<<<<< HEAD
-            "certifications": {
-=======
         "certifs": {
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
                 "description": "Liste des certifications en cours de validité",
                 "@type": "Person",
                 "jobTitle": "Consultant freelance en architecture réseau",
@@ -148,16 +139,12 @@
         }
     
     },
-<<<<<<< HEAD
-    "tiles": {
-=======
 
 
     "_comment_TILES": "------------------   Tiles display and swapping  ---------------------",
 
     "tiles": {
         "_comment_CER": "------------------    Page Certifs.html    ---------------------",
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
         "certifications": [
             {
                 "image": "/images/ccde_design_large.png",
@@ -177,10 +164,7 @@
                 "name": "AWS Solutions Architect Associate"
             }
         ],
-<<<<<<< HEAD
-=======
             "_comment_REF": "------------------    Page References    ---------------------",
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
         "references": [
             {
                 "image": "/images/Airbus-Logo-400x115.png",
@@ -207,10 +191,7 @@
                 "description": "Micro segmentation des 2000 sites distants multi-VRFs pour se conformer aux exigences d&#39;un op&#233;rateur d&#39;Importance Vitale (OIV)<br>D&#233;veloppement de l&#39;application responsable de la configuration du route-server."
             }
         ],
-<<<<<<< HEAD
-=======
             "_comment_SER": "------------------    Page Services.html    ---------------------",
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
         "offers": [
             {
                 "image": "/images/sherlock500x550.png",
@@ -263,8 +244,6 @@
                 "description": "Architecte certifi&#233; AWS, nous vous aidons &#224; cr&#233;er l&#39;environnement Cloud de votre entreprise et &#224; y migrer les applications de mani&#232;re transparente et s&#233;curis&#233;e."
             }
         ]
-<<<<<<< HEAD
-=======
     },
 
     "_comment_BLG": "------------------    Page Blog    ---------------------",
@@ -273,19 +252,23 @@
         "sections": [
             {
                 "name": "Publication sur le blog d'Ivan Pepelnjak",
-                "tag":  "Ivan"
+                "tag":  "Ivan",
+                "order" : 1
             },
             {  
                 "name": "Posts publiés sur LinkedIn",
-                "tag":  "LinkedIn"
+                "tag":  "LinkedIn",
+                "order" : 2
             },        
             {  
                 "name": "Publications sur le blog MHD-Experts",
-                "tag":  "MHD-Experts"
+                "tag":  "MHD-Experts",
+                "order" : 3
             },       
             {  
                 "name": "Série: Découvrir Ansible (2020)",
-                "tag":  "MHD Ansible"
+                "tag":  "MHD Ansible",
+                "order" : 4
             }        
        ],
        "articles": [
@@ -435,6 +418,5 @@
                 "keywords": ["ansible", "templates", "automation"]
             }
         ]
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
     }
 }
