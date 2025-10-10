@@ -1,5 +1,5 @@
 <nav class="navbar">
-    <div>
+    <div class="nav-main">
         <img src="/images/ff8000-logo48x48.png" class="navbar-logo">
         <a href="accueil"   >Home</a>&nbsp;&nbsp;
         <a href="services"  >Services</a>
@@ -7,16 +7,19 @@
         <a href="certifs"   >Certifications</a>
         <a href="blog"      >Blog</a>
         <a href="contact"   >Contact</a>
+
+        <span class="nav-social">
+            <a href="https://linkedin.com/in/phjounin" target="_blank">
+            <img src="/images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/PJO2" target="_blank">
+            <img src="/images/github-160x160.png"  alt="GitHub">
+            </a>
+        </span>
     </div>
-    <div>
-        <a href="https://linkedin.com/in/phjounin" target="_blank"><img src="/images/linkedin.png"></a>
-        <a href="https://github.com/PJO2" target="_blank"><img src="/images/github-160x160.png" style="width:32px;"></a>
-    </div>
-    <div>
-        <a href="/fr/{{ page }}">
-            <button id="language-toggle">
-                fr-<B>EN</B>
-            </button>
-        </a>          
-    </div>
+    <a href="/fr/{{ page }}">
+        <button id="language-toggle">
+            fr-<B>EN</B>
+        </button>
+    </a>          
 </nav>

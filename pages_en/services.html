@@ -2,16 +2,12 @@
 <div class="container-fluid my-5">
     <div class="row justify-content-center g-1" id="offers-container">
 
-<<<<<<< HEAD
-{% for item in data.offers %}        
-=======
-{% for item in data.tiles.offers %}        
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
+{% for tile in data.tiles.offers %}        
         <div class="col-auto">
             <div class="tile bg-light shadow p-3 rounded d-flex flex-column h-100">
-                <img src="{{item.image}}" class="img50" alt="{{item.alt}}">
-                <p class="mt-3">{{item.title}}</p>
-                <div class="overlay-text">{{item.description}}</div>
+                <img src="{{tile.image}}" class="img50" alt="{{tile.alt}}">
+                <p class="mt-3">{{tile.title}}</p>
+                <div class="overlay-text">{{tile.description}}</div>
             </div>
         </div>
 {% endfor %} 
@@ -23,16 +19,12 @@
 <div class="container-fluid my-5">
     <div class="row justify-content-center g-1" id="domains-container">
 
-<<<<<<< HEAD
-{% for item in data.domains %}        
-=======
-{% for item in data.tiles.domains %}        
->>>>>>> 4cfad7d0d63ab7eeb9267538b3fdb2ab62027646
+{% for tile in data.tiles.domains %}        
         <div class="col-auto">
             <div class="tile bg-light shadow p-3 rounded d-flex flex-column h-100">
-                <img src="{{item.image}}" class="img80" alt="{{item.alt}}">
-                <p class="mt-3">{{item.title}}</p>
-                <div class="overlay-text">{{item.description}}</div>
+                <img src="{{tile.image}}" class="img80" alt="{{tile.alt}}">
+                <p class="mt-3">{{tile.title}}</p>
+                <div class="overlay-text">{{tile.description}}</div>
             </div>
         </div>
 {% endfor %}        
