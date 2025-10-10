@@ -9,7 +9,7 @@ import json
 import os
 
 # go to shared directory
-os.chdir ('/media/sf_homes/ff8000/promotion/web_site/ff8000')
+# os.chdir ('/media/sf_homes/ff8000/promotion/web_site/ff8000')
 
 # Site pages
 PAGES = [ 'accueil', 'blog', 'certifs', 'contact', 'references', 'services' ]
