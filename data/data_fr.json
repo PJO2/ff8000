@@ -1,16 +1,16 @@
 {
     "meta": {
         "descriptions": {
-            "accueil":  "FF8000 vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
+            "accueil":  "FF8000.net vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
             "services": "Découvrez les services de FF8000 : audit, design, automatisation et formation en infrastructures réseau.",
             "certifs":  "Expertise prouvée : CCDE, DevNet, AWS. Découvrez mes certifications et mon expertise réseau.",
-            "references":"Les projets et architectures réseau conçus par FF8000 pour des entreprises et opérateurs majeurs. Des solutions performantes, sécurisées et adaptées aux besoins complexes.",
+            "references":"Les projets et architectures réseau conçus par FF8000.net pour des entreprises et opérateurs majeurs. Des solutions performantes, sécurisées et adaptées aux besoins complexes.",
             "blog":     "Les articles techniques publiés",
             "contact":  "me contacter" 
         },
         "seo": {    
             "accueil": {
-                "description" : "FF8000 est un cabinet de conseil freelance spécialisé en architecture réseau et cloud. Nous offrons une expertise pointue dans la conception, l'optimisation et l'automatisation des infrastructures réseau, en fournissant des solutions performantes et sécurisées adaptées aux grandes entreprises.",                
+                "description" : "FF8000.net est une société de conseil spécialisée en architecture réseau et cloud. Nous offrons une expertise pointue dans la conception, l'optimisation et l'automatisation des infrastructures réseau, en fournissant des solutions performantes et sécurisées adaptées aux grandes entreprises.",
                 "@type": "Organization",
                 "contactPoint": [{
                     "@type": "ContactPoint",
@@ -21,7 +21,7 @@
                   }]
             },
             "services": {
-                "description": "FF8000 propose des services d'audit, conception, optimisation, automatisation et formation en infrastructures réseau. Nos solutions sont adaptées aux grandes entreprises et garantissent performance, sécurité et simplicité de gestion.",
+                "description": "FF8000.net propose des services d'audit, conception, optimisation, automatisation et formation en infrastructures réseau. Nos solutions sont adaptées aux grandes entreprises et garantissent performance, sécurité et simplicité de gestion.",
                 "@type": "Service",
                 "serviceType": "Consultant en infrastructures réseau et cloud",
                 "areaServed": {
@@ -100,7 +100,7 @@
                 "jobTitle": "Consultant freelance en architecture réseau",
                 "worksFor": {
                   "@type": "Organization",
-                  "name": "FF8000",
+                  "name": "FF8000.net",
                   "url": "https://ff8000.net"
                 },
                 "hasCredential": [

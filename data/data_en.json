@@ -3,10 +3,10 @@
 
     "meta": {
         "descriptions": {
-            "accueil":  "FF8000 supports you in the design and optimization of your network infrastructures with solutions tailored for large enterprises.",
+            "accueil":  "FF8000.net supports you in the design and optimization of your network infrastructures with solutions tailored for large enterprises.",
             "services": "Discover FF8000's services: audit, design, automation, and training in network infrastructures.",
             "certifs":  "Proven expertise: CCDE, DevNet, AWS. Explore my certifications and network expertise.",
-            "reference":"Network projects and architectures designed by FF8000 for major enterprises and operators. High-performance, secure solutions tailored to complex needs.",
+            "reference":"Network projects and architectures designed by FF8000.net for major enterprises and operators. High-performance, secure solutions tailored to complex needs.",
             "blog":     "Technical articles published",
             "contact":  "Contact me" 
         },
@@ -23,7 +23,7 @@
                     }]
             },
             "services": {
-                "description": "FF8000 offers audit, design, optimization, automation, and training services in network infrastructures. Our solutions are tailored to large enterprises and ensure performance, security, and simplified management.",
+                "description": "FF8000.net offers audit, design, optimization, automation, and training services in network infrastructures. Our solutions are tailored to large enterprises and ensure performance, security, and simplified management.",
                 "@type": "Service",
                 "serviceType": "Network and cloud infrastructure consulting",
                 "areaServed": {
@@ -102,7 +102,7 @@
                 "jobTitle": "Freelance network architecture consultant",
                 "worksFor": {
                     "@type": "Organization",
-                    "name": "FF8000",
+                    "name": "FF8000.net",
                     "url": "https://ff8000.net"
                 },
                 "hasCredential": [
