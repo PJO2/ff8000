@@ -10,7 +10,7 @@
         },
         "seo": {    
             "accueil": {
-                "description" : "#FF8000.net est une société de conseil spécialisée en architecture réseau et cloud. Nous offrons une expertise pointue dans la conception, l'optimisation et l'automatisation des infrastructures réseau, en fournissant des solutions performantes et sécurisées adaptées aux grandes entreprises.",
+                "description" : "#FF8000.net est une société lyonnaise de conseil spécialisée en architecture réseau et cloud. Nous offrons une expertise pointue dans la conception, l'optimisation et l'automatisation des infrastructures réseau, en fournissant des solutions performantes et sécurisées adaptées aux grandes entreprises.",
                 "@type": "Organization",
                 "contactPoint": [{
                     "@type": "ContactPoint",
