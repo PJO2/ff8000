@@ -1,16 +1,16 @@
 {
     "meta": {
         "descriptions": {
-            "accueil":  "FF8000.net vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
+            "accueil":  "#FF8000.net vous accompagne dans le design et l'optimisation de vos infrastructures réseau avec des solutions adaptées aux grandes entreprises.",
             "services": "Découvrez les services de FF8000 : audit, design, automatisation et formation en infrastructures réseau.",
             "certifs":  "Expertise prouvée : CCDE, DevNet, AWS. Découvrez mes certifications et mon expertise réseau.",
-            "references":"Les projets et architectures réseau conçus par FF8000.net pour des entreprises et opérateurs majeurs. Des solutions performantes, sécurisées et adaptées aux besoins complexes.",
+            "references":"Les projets et architectures réseau conçus par #FF8000.net pour des entreprises et opérateurs majeurs. Des solutions performantes, sécurisées et adaptées aux besoins complexes.",
             "blog":     "Les articles techniques publiés",
-            "contact":  "me contacter" 
+            "contact":  "#FF8000.net: me contacter" 
         },
         "seo": {    
             "accueil": {
-                "description" : "FF8000.net est une société de conseil spécialisée en architecture réseau et cloud. Nous offrons une expertise pointue dans la conception, l'optimisation et l'automatisation des infrastructures réseau, en fournissant des solutions performantes et sécurisées adaptées aux grandes entreprises.",
+                "description" : "#FF8000.net est une société de conseil spécialisée en architecture réseau et cloud. Nous offrons une expertise pointue dans la conception, l'optimisation et l'automatisation des infrastructures réseau, en fournissant des solutions performantes et sécurisées adaptées aux grandes entreprises.",
                 "@type": "Organization",
                 "contactPoint": [{
                     "@type": "ContactPoint",
@@ -21,7 +21,7 @@
                   }]
             },
             "services": {
-                "description": "FF8000.net propose des services d'audit, conception, optimisation, automatisation et formation en infrastructures réseau. Nos solutions sont adaptées aux grandes entreprises et garantissent performance, sécurité et simplicité de gestion.",
+                "description": "#FF8000.net propose des services d'audit, conception, optimisation, automatisation et formation en infrastructures réseau. Nos solutions sont adaptées aux grandes entreprises et garantissent performance, sécurité et simplicité de gestion.",
                 "@type": "Service",
                 "serviceType": "Consultant en infrastructures réseau et cloud",
                 "areaServed": {
@@ -49,7 +49,7 @@
                   ]
                 },
             "references": {
-                "description" : "références de projets d'infrastructure réseau réalisés par FF8000.",
+                "description" : "Infrastructures réseau réalisées par #FF8000.net",
                 "@type": "ItemList",
                 "itemListElement": [
                     {
@@ -80,7 +80,7 @@
                         "name": "Amplivia",
                         "url": "https://www.amplivia.com/"
                     },
-                    "description": "Design d’un réseau MPLS reliant 2500 sites en utilisant des overlays PPPoE, L2TP et FlexVPN."
+                    "description": "Design d'un réseau MPLS reliant 2500 sites en utilisant des overlays PPPoE, L2TP et FlexVPN."
                     },
                     {
                     "@type": "Project",

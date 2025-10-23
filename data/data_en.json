@@ -3,16 +3,16 @@
 
     "meta": {
         "descriptions": {
-            "accueil":  "FF8000.net supports you in the design and optimization of your network infrastructures with solutions tailored for large enterprises.",
+            "accueil":  "#FF8000.net supports you in the design and optimization of your network infrastructures with solutions tailored for large enterprises.",
             "services": "Discover FF8000's services: audit, design, automation, and training in network infrastructures.",
             "certifs":  "Proven expertise: CCDE, DevNet, AWS. Explore my certifications and network expertise.",
             "reference":"Network projects and architectures designed by FF8000.net for major enterprises and operators. High-performance, secure solutions tailored to complex needs.",
             "blog":     "Technical articles published",
-            "contact":  "Contact me" 
+            "contact":  "#FF8000.net: Contact me" 
         },
         "seo": {    
             "accueil": {
-                "description" : "FF8000 is a freelance consulting firm specialized in network and cloud architecture. We offer advanced expertise in the design, optimization, and automation of network infrastructures, providing high-performance and secure solutions tailored to large enterprises.",                
+                "description" : "#FF8000.net is a freelance consulting firm specialized in network and cloud architecture. We offer advanced expertise in the design, optimization, and automation of network infrastructures, providing high-performance and secure solutions tailored to large enterprises.",                
                 "@type": "Organization",
                 "contactPoint": [{
                     "@type": "ContactPoint",
@@ -51,7 +51,7 @@
                     ]
                 },
             "references": {
-                "description" : "Network infrastructure project references delivered by FF8000.",
+                "description" : "Network infrastructures delivered by #FF8000.net",
                 "@type": "ItemList",
                 "itemListElement": [
                     {
