@@ -23,7 +23,7 @@
             "services": {
                 "description": "#FF8000.net propose des services d'audit, conception, optimisation, automatisation et formation en infrastructures réseau. Nos solutions sont adaptées aux grandes entreprises et garantissent performance, sécurité et simplicité de gestion.",
                 "@type": "Service",
-                "serviceType": "Consultant en infrastructures réseau et cloud",
+                "serviceType": "Architecte réseau et Cloud, Lyon",
                 "areaServed": {
                     "@type": "Place",
                     "name": "Europe"
@@ -34,6 +34,7 @@
                     "description": "Services professionnels de conseil en réseau : audit, automatisation, optimisation et formation",
                     "price": "Sur demande",
                     "priceCurrency": "EUR",
+                    "location": "Lyon",
                     "eligibleRegion": {
                       "@type": "Place",
                       "name": "Europe"
