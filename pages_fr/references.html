@@ -9,11 +9,11 @@ de nombreux réseaux stratégiques.</p>
 
 {% for tile in data.tiles.references %}
          <div class="col-auto">
-            <div class="tile bg-light shadow p-3 rounded d-flex flex-column h-100">
+            <a class="tile bg-light shadow p-3 rounded d-flex flex-column h-100">
                <img src="{{ tile.image }}" class="logo" alt="{{ tile.alt }}">
                <p class="mt-3">{{ tile.title }}</p>
                <div class="overlay-text">{{ tile.description }}</div>
-            </div>
+            </a>
          </div>
 {% endfor %}
 
