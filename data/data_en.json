@@ -286,6 +286,27 @@
                 "year": 2019
             },
             {
+                "url": "https://www.linkedin.com/posts/phjounin_huaweis-shaggy-ipv6-why-these-mask-recommendations-activity-7401220395200065536-xG-p",
+                "topic": "Huawei’s Shaggy IPv6: Why These Mask Recommendations Make Me Shiver",
+                "tag": "LinkedIn",
+                "keywords": [ "IPv6", "subnetting", "address space" ],
+                "year": 2025
+            },
+            {
+                "url": "https://www.linkedin.com/pulse/why-ciscos-brilliant-overlay-technologies-never-took-off-jounin-yrzvf",
+                "topic": "Why Cisco’s Brilliant Overlay Technologies Never Took Off",
+                "tag": "LinkedIn",
+                "keywords": [ "LISP", "overlay", "SD-WAN", "FlexVPN" ],
+                "year": 2025
+            },
+            {
+                "url": "https://www.linkedin.com/posts/phjounin_jinja-cheatsheet-for-network-engineers-activity-7341827575809224706-MXH0",
+                "topic": "Jinja for Networking – The Cheat Sheet",
+                "tag": "LinkedIn",
+                "keywords": ["jinja2", "network automation", "cheatsheet", "templates"],
+                "year": 2025
+            },
+            {
                 "url": "https://www.linkedin.com/posts/phjounin_retro-labbing-building-secure-roaming-wi-fi-activity-7361731531825934336-uKE6",
                 "topic": "Retro Labbing: Building Secure, Roaming Wi-Fi for €100",
                 "tag": "LinkedIn",
@@ -297,13 +318,6 @@
                 "topic": "Releasing IOUlive64 - connect Cisco IOU labs to real world",
                 "tag": "LinkedIn",
                 "keywords": ["iou", "virtual labs", "cisco", "automation", "network emulation"],
-                "year": 2025
-            },
-            {
-                "url": "https://mhd-experts.com/2025/06/21/memento-jinja-oriente-reseau/",
-                "topic": "Jinja for Networking – The Cheat Sheet",
-                "tag": "MHD-Experts",
-                "keywords": ["jinja2", "network automation", "cheatsheet", "templates"],
                 "year": 2025
             },
             {

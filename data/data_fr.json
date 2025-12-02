@@ -288,6 +288,20 @@
                 "year": 2019
             },
             {
+                "url": "https://www.linkedin.com/posts/phjounin_huaweis-shaggy-ipv6-why-these-mask-recommendations-activity-7401220395200065536-xG-p",
+                "topic": "Huawei’s Shaggy IPv6: Why These Mask Recommendations Make Me Shiver",
+                "tag": "LinkedIn",
+                "keywords": [ "IPv6", "subnetting", "address space" ],
+                "year": 2025
+            },
+            {
+                "url": "https://www.linkedin.com/pulse/why-ciscos-brilliant-overlay-technologies-never-took-off-jounin-yrzvf",
+                "topic": "Why Cisco’s Brilliant Overlay Technologies Never Took Off",
+                "tag": "LinkedIn",
+                "keywords": [ "LISP", "overlay", "SD-WAN", "FlexVPN" ],
+                "year": 2025
+            },
+            {
                 "url": "https://www.linkedin.com/posts/phjounin_retro-labbing-building-secure-roaming-wi-fi-activity-7361731531825934336-uKE6",
                 "topic": "Retro Labbing : Construire un Wi-Fi sécurisé avec roaming pour 100€",
                 "tag": "LinkedIn",
@@ -296,7 +310,7 @@
             },
             {
                 "url": "https://www.linkedin.com/posts/phjounin_releasing-ioulive64-a-new-way-to-connect-activity-7348695844285464578-Xfr0",
-                "topic": "OUlive64 - connecter vos labs Cisco IOU au monde réel",
+                "topic": "IOUlive64 - connecter vos labs Cisco IOU au monde réel",
                 "tag": "LinkedIn",
                 "keywords": ["iou", "virtual labs", "cisco", "automation", "network emulation"],
                 "year": 2025
